@@ -1,0 +1,46 @@
+
+
+.brand_title{
+    font-size: 50px;
+    font-family:Titillium Web;
+    font-weight: bold;
+    color: aqua;
+}
+
+body{
+    height:200px;
+    background-color: rgb(196, 239, 195);
+    background-image: url("Space.jpeg");
+    background-size: cover;
+}
+
+.motto{
+    font-family:Titillium Web;
+    color: aqua;
+}
+
+.timer_title{
+    font-family:Titillium Web;
+    color: aqua;
+}
+
+.start_timer{
+    background-color: aliceblue;
+    font-family:Titillium Web;
+    font-weight: bold;
+    border-radius: 12px;
+    padding:10px 24px;
+
+}
+
+.start_timer:hover{
+    background-color: rgb(220, 220, 220);
+
+} 
+
+.count_display{
+    font-size: 50px;
+    color: aqua;
+    font-family:Titillium Web;
+
+}
