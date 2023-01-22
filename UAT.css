@@ -22,6 +22,7 @@ body{
 .timer_title{
     font-family:Titillium Web;
     color: aqua;
+    font-size: 30px;
 }
 
 .start_timer{
@@ -29,7 +30,7 @@ body{
     font-family:Titillium Web;
     font-weight: bold;
     border-radius: 12px;
-    padding:10px 24px;
+    padding:35px 34px;
 
 }
 
@@ -38,9 +39,4 @@ body{
 
 } 
 
-.count_display{
-    font-size: 50px;
-    color: aqua;
-    font-family:Titillium Web;
 
-}
