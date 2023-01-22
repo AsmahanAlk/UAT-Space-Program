@@ -2,77 +2,27 @@
 
 
 
-
-
 function countDown()
 {
+    //currTime is the seconds knocked off
     var currTime = 10;
-    //timer for 10 seconds left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 1000);
-    //9 sec left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 2000);
-    //8 sec left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 3000);
-    //7 sec left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 4000);
-    //6 sec left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 5000);
-    //5 sec left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 6000);
-    //4 sec left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 7000);
-    //3 sec left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 8000);
-    //2 sec left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 9000);
-    //1 sec left
-    setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = currTime;
-        currTime = currTime - 1;
-    }, 10000);
-     //prints Blastoff
-     setTimeout(function () {
-        //code is here for the 1st timer
-        document.getElementById("countdown").innerHTML = "BLASTOFF";
-        currTime = currTime - 1;
-    }, 11000);
-    
-
+   //a for loop because I found it the easiest 
+    for (var i = 1; i <= 11; i++)
+{
+    //this is the if statement for the end of the countdown
+    if (i == 11) {
+        setTimeout(function () {
+            //this is for blastoff
+            document.getElementById("active").innerHTML = "BLASTOFF";
+        }, 1000 * i);
+    //this is the else if statement that does the countdown itself 
+    } else if (i < 11){
+        setTimeout(function () {
+            //this is for replacing text each time with the variable currTime
+            document.getElementById("active").innerHTML = currTime;
+            //subtracting 1 from currTim every second
+            currTime --;
+        }, 1000 * i);
+    }
+}
 }
