@@ -1,0 +1,68 @@
+
+
+
+
+
+.login_banner{
+    background: rgb(235, 255, 248);
+}
+
+.login_banner__content{
+    padding: 5px
+    
+}
+
+.login_logo{ 
+    border: transparent;
+    background-color: transparent;
+
+}
+
+
+.login_body{
+    height:200px;
+    background-color: rgb(24, 54, 100);
+    background-size: cover;
+    background-image:url(forest.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.submission{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: DotGothic16;
+    border-radius: 12px;
+    padding:3px 50px;
+    font-size: 30px;
+}
+
+.sub_title{
+    font-family: DotGothic16;
+    font-size: 60px;
+
+}
+
+.loginStat{
+    font-family: DotGothic16;
+    font-size: 20px;
+    color:rgb(13, 255, 0);
+}
+
+.loginStat:invalid{
+    font-family: DotGothic16;
+    font-size: 20px;
+    color:rgb(255, 174, 0);
+}
+
+.login_button{
+    font-family: DotGothic16;
+    font-size: 20px;
+}
