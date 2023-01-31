@@ -1,0 +1,69 @@
+
+
+
+<!-- 
+    Asmahan Alkafi, This HTML file is for the login page
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <title>
+            UAT Login
+        </title>
+            <!-- 
+    any links to other files, from the web 
+-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Titillium+Web:ital,wght@1,300&display=swap" rel="stylesheet">
+        <script src = "UAT.js"></script>
+        <link href = "index.html" >
+        <link rel = "stylesheet" href = "login.css">
+
+    </head>
+
+    <body class="login_body">
+
+        <div>
+   <!-- 
+    the home banner above for the menu
+-->
+            <div class="login_banner">
+                <div class="login_banner__content">
+                         
+                </div>
+                <a href="index.html" class="button">
+                    <img src="star.png" width="60" height="60">
+                </a>
+                         
+                 </div>
+                </div>
+            </div>
+
+
+            <div >   <!-- 
+                the form for logging in to countdown timer
+            -->
+               
+                <form class="submission" id="credSumt" onclick= "return false">
+                    First Name: <input type= "text" id = "firstname"/>
+                    <br>
+                    Last Name: <input type= "text" id = "lastname"/>
+                    <br>
+                    Badge Number: <input type= "number" id = "password"/>
+                    <br>
+                    <button class= "login_button" id= "go_login" onclick = "checkCreds()">GO</button>
+                    <p id ="loginStatus" class="loginStat"> enter info</p>
+                </form>
+            </div>
+        </div>
+            
+    </body>
+
+</html>
+
